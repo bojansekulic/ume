@@ -1,0 +1,30 @@
+{
+	"name": "dsa-io/csv-validator",
+	"description": "A CSV Validator based on Laravel's built-in Validator",
+	"type": "library",
+	"require": {
+		"laravel/framework": "~5.0"
+	},
+	"license": "MIT",
+	"support": {
+		"email": "me@dsa.io",
+		"issues": "https://github.com/stefandanaita/CsvValidator/issues",
+		"wiki": "https://github.com/stefandanaita/CsvValidator/wiki"
+	},
+	"authors": [
+		{
+			"name": "Stefan Danaita",
+			"email": "stefan.danaita@gmail.com",
+			"homepage": "http://dsa.io/",
+			"role": "Developer"
+		}
+	],
+	"keywords": [
+		"laravel", "csv", "validator"
+	],
+	"autoload": {
+		"psr-4": {
+			"Dsaio\\CsvValidator\\": "src/"
+		}
+	}
+}
